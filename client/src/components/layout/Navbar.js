@@ -10,25 +10,34 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
       <li>
         <a onClick={logout} href=''>
           <i className='fas fa-sign-out-alt' />{' '}
-          <span className='hide-sm'>Logout</span>
+          <span className='hide-lg'>Logout</span>
         </a>
       </li>
+        <li>
+            <Link to='/posts'>Posts</Link>
+        </li>
     </ul>
   );
 
   const guestLinks = (
     <ul>
+        <li>
+            <Link to='/index'>Home</Link>
+        </li>
       <li>
         <Link to='/register'>Register</Link>
       </li>
       <li>
         <Link to='/login'>Login</Link>
       </li>
+        <li>
+            <Link to='/posts'>Posts</Link>
+        </li>
     </ul>
   );
 
   return (
-    <nav className='navbar bg-dark'>
+    <nav className='navbar navbar-dark bg-dark'>
       {!loading && (
         <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>
       )}
