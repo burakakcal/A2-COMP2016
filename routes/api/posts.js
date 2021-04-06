@@ -42,7 +42,7 @@ router.get('/', auth, async (req, res) => {
     const posts = await Post.find().sort({ date: -1 });
     res.json(posts);
   } catch (err) {
-    console.error("dsfjiosd",err.message);
+    console.error("Error Message",err.message);
     res.status(500).send('Server Error');
   }
 });
