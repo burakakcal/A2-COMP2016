@@ -48,9 +48,9 @@ const Login = ({ login, isAuthenticated }) => {
             minLength='6'
           />
         </div>
-        <input type='submit' className='btn btn-dark' value='Login' />
+        <input type='submit' className='btn btn-primary' value='Login' />
       </form>
-      <p className='alert-link'>
+      <p className='my-1'>
         Don't have an account? <Link to='/register'>Sign Up</Link>
       </p>
     </Fragment>
