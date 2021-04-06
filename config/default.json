@@ -1,4 +1,5 @@
 {
   "mongoURI": "mongodb+srv://admin:sampiyon@cluster0.jkfwe.mongodb.net/comp2106test?retryWrites=true",
-  "jwtSecret": "123456"
+  "clientSecret": "123456",
+  "useUnifiedTopology": "true"
 }

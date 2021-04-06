@@ -1,3 +1,5 @@
+//attained from https://www.npmjs.com/package/axios
+
 import axios from 'axios';
 
 const setAuthToken = token => {
