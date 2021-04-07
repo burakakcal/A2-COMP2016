@@ -18,7 +18,7 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
-  color: #333;
+  color: #212529;
 }
 
 a {
@@ -263,13 +263,13 @@ button {
 }
 
 .navbar a {
-  color: #fff;
+  color: #000000;
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
 
 .navbar a:hover {
-  color: var(--primary-color);
+  color: #0d6efd;
 }
 
 .navbar .welcome span {
