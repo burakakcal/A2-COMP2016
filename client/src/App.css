@@ -40,22 +40,18 @@ img {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
-  padding: 5rem;
+  padding: 4rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
   background: white;
-  -moz-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
-  box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
-  -webkit-transition: box-shadow 0.2s ease-in;
-  -moz-transition: box-shadow 0.2s ease-in;
-  transition: box-shadow 0.2s ease-in;
+  border-radius: 20px;
+
 }
 
 .container:hover{
-  -moz-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 35px inset;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 35px inset;
-  box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 35px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 10px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 10px inset;
+  box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 10px inset;
 }
 
 /* Text Styles*/

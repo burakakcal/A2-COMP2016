@@ -7,7 +7,7 @@ const PostForm = ({ addPost }) => {
 
   return (
     <div className='post-form'>
-      <div className='text-light bg-primary p'>
+      <div className='text-light bg-dark p'>
         <h3>Enter your post here ⇩</h3>
       </div>
       <form
@@ -27,7 +27,7 @@ const PostForm = ({ addPost }) => {
           onChange={e => setText(e.target.value)}
           required
         />
-        <input type='submit' className='btn btn-dark my-1' value='Submit' />
+        <input type='submit' className='btn btn-primary my-1' value='Submit' />
       </form>
     </div>
   );
