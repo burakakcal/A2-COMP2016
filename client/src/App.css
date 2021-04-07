@@ -138,7 +138,7 @@ img {
 
 .btn {
   display: inline-block;
-  background: red;
+  background: var(--light-color);
   color: #333;
   padding: 0.4rem 1.3rem;
   font-size: 1rem;

@@ -21,7 +21,7 @@ const PostItem = ({
           <button
             onClick={() => addLike(_id)}
             type='button'
-            className='btn btn-light'
+            className='btn bg-success'
           >
             <i className='fas fa-thumbs-up' />{' '}
             <span>{likes.length}</span>
@@ -29,7 +29,7 @@ const PostItem = ({
           <button
             onClick={() => removeLike(_id)}
             type='button'
-            className='btn btn-light'
+            className='btn bg-danger'
           >
             <i className='fas fa-thumbs-down' />{' '}
             
