@@ -27,21 +27,5 @@ export default function(state = initialState, action) {
         posts: [payload, ...state.posts],
         loading: false
       };
-    case POST_ERROR:
-      return {
-        ...state,
-        error: payload,
-        loading: false
-      };
-    case UPDATE_LIKES:
-      return {
-        ...state,
-        posts: state.posts.map(post =>
-          post._id === payload.id ? { ...post, likes: payload.likes ,dislikes: payload.dislikes} : post
-        ),
-        loading: false
-      };
-    default:
-      return state;
-  }
+
 }
