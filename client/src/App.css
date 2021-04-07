@@ -268,10 +268,13 @@ button {
   margin: 0 0.25rem;
 }
 
-.navbar a:hover {
+.navbar a:active{
   color: #0d6efd;
 }
 
+.navbar a:hover {
+  color: #0d6efd;
+}
 .navbar .welcome span {
   margin-right: 0.6rem;
 }
