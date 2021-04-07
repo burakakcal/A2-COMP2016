@@ -5,6 +5,7 @@ import Login from '../auth/Login';
 import Alert from '../layout/Alert';
 import Posts from '../posts/Posts';
 import NotFound from '../layout/NotFound';
+import Home from '../auth/Home';
 import PrivateRoute from '../routing/PrivateRoute';
 
 const Routes = () => {
@@ -17,6 +18,7 @@ const Routes = () => {
         )}/>
         <Route exact path='/login' component={Login}/>
         <Route exact path='/register' component={Register} />
+          <Route exact path='/home' component={Home} />
         <PrivateRoute exact path='/posts' component={Posts} />
         <Route component={NotFound} />
       </Switch>
