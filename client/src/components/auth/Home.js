@@ -8,7 +8,7 @@ const Home = () => {
             <h1 className="cover-heading">Interactive App Home Page</h1>
             <p className="lead">This is an app that enables users to interact with each others posts</p>
 
-            <img src={Image}/>
+            <img src={Image}alt="home-image"/>
         </Fragment>
     );
 };

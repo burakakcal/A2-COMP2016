@@ -33,9 +33,6 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <li>
             <Link to='/posts'>Posts</Link>
         </li>
-        <li>
-            <Link to='/recommendations'>Recommendations</Link>
-        </li>
     </ul>
   );
 
