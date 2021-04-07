@@ -17,16 +17,9 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
   color: #212529;
   margin: 40px;
-  background-color: rgb(68,68,68); /* Needed for IEs */
-  -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-  -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-  box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
-  zoom: 1;
+  background-color: black;
 }
 
 a {
@@ -47,9 +40,22 @@ img {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 5rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
+  background: white;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.container:hover{
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 35px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 35px inset;
+  box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 35px inset;
 }
 
 /* Text Styles*/
